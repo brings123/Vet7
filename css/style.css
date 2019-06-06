@@ -173,3 +173,10 @@ footer hr{
 .fa-heart{
   color: red;
 }
+/* Media queries */
+@media(max-width:495px) {
+  #home .ptext h1{
+  font-size: 2rem;
+  padding-bottom: .8rem;
+  }
+}
