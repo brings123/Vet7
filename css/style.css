@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+body,html{
+
+  height: 100%;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  background-color: #e9ecef;
+}
+#home{
+  height:100%;
+}
+/* Navigation */
+.dark{
+  color: gray;
+  font-weight: bold;
+}
+.navbar-brand{
+  font-size: 1.6rem;
+}
+.navbar{
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  padding: 0.8rem;
+}
+.navbar-nav{
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.navbar-nav li{
+  padding-right: 2rem;
+  letter-spacing: .1rem;
+}
+/* Landing page */
+.pimg1{
+  background-image: url('../img/background.jpg');
+  min-height: 100%;
+}
+.pimg1, .diversity{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#home .ptext{
+  position: absolute;
+  top: 38%;
+  z-index: 2;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: .2rem;
+  width: 100%;
+}
+#home .ptext h1{
+  text-shadow: .1rem .1rem .8rem black;
+}
+.btn-primary{
+  background-color: #595959;
+  color: white;
+  border-radius: 0;
+  border:.2rem solid #595959;
+  padding: .5rem;
+}
+.btn-primary:hover{
+  background-color: #272727;
+  border: .2rem solid #272727;
+}
+.ptext p{
+  padding-bottom: .8rem;
+}
+.btn-outline-light{
+  border-radius: 0;
+  border: .2rem solid white;
+  padding: .5rem;
+}
+#home .ptext h1{
+font-size: 3.4rem;
+padding-bottom: 1rem;
+}
+/* Mission */
+.jumbotron{
+  margin: 0;
+}
+/* Produits */
+#produits{
+  margin: 0;
+  background-color: #e9ecef;
+}
+#produits h3{
+  text-transform: uppercase;
+  padding: 1rem;
+}
+.hr{
+  width: 3rem;
+  border-top: .3rem solid #595959;
+  margin-bottom: 2.5rem;
+}
+.carousel-item img{
+  height: 100%;
+  width: 100%;
+}
+.carousel-caption{
+  position: absolute;
+  top: 10%;
+}
+.diversity{
+  background-image: url('../img/background1.jpg');
+  min-height: 400px;
+  color: white;
+  background-color: black;
+  opacity: .8;
+}
+.diversity h3{
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  background-color: #595959;
+}
+/* clients */
+.clients {
+  padding: 3rem;
+}
+.fa-quote-left{
+  color: #595959;
+  padding: .5rem;
+}
+.clients h3{
+  text-transform: uppercase;
+  padding: 1rem;
+}
+.clients img{
+  width: 100%;
+  height:100%;
+  border-radius: 50%;
+}
+.clients .col-md-6 hr{
+  border-top: .1rem solid #595959;
+}
+/* Footer */
+footer{
+  background-color: #272727;
+  padding: 4rem;
+  color: white;
+}
+footer h4{
+  font-size: 1.5rem;
+}
+footer hr{
+  border-top: .1rem solid #595959;
+  width: 80%;
+}
+.fa-facebook{
+  color:#3b5998	;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.fa-instagram{
+  color:#8a3ab9	;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.fa-twitter{
+  color:#1da1f2;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.fa-facebook:hover ,.fa-twitter:hover , .fa-instagram:hover{
+  color: #595959;
+}
+.copyright{
+  font-size: .8rem;
+}
+.fa-heart{
+  color: red;
+}
