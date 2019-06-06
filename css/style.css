@@ -176,7 +176,31 @@ footer hr{
 /* Media queries */
 @media(max-width:495px) {
   #home .ptext h1{
-  font-size: 2rem;
+  font-size: 2.8rem;
   padding-bottom: .8rem;
   }
+  #home .ptext .btn{
+    margin-bottom: .9rem;
+  }
+}
+@media (max-width:300px) {
+    #home .ptext h1{
+    font-size: 2rem;
+    padding-bottom: .8rem;
+    }
+    #home .ptext p{
+      font-size:.9rem;
+    }
+    #home .ptext .btn{
+      margin-bottom: .7rem;
+    }
+    body,html{
+      font-size: .9rem;
+    }
+    #mission{
+      font-size: .9rem;
+    }
+    #mission .display-4{
+      font-size: 2.4rem;
+    }
 }
